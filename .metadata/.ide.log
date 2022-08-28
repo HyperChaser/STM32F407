@@ -904,3 +904,40 @@
 2022-08-28 09:46:44,308 [INFO] ProjectBuilder:4285 - Time for Generating toolchain IDE Files: 3136mS.
 2022-08-28 09:46:44,309 [INFO] ProjectBuilder:2790 - Time for Copy CMSIS : 0mS.
 2022-08-28 09:46:44,310 [INFO] ProjectBuilder:2790 - Time for Copy CMSIS : 0mS.
+2022-08-28 10:06:18,980 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] StartTraceHandler.execute(), success : Collect=true
+2022-08-28 10:07:50,310 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] StartTraceHandler.execute(), success : Collect=false
+2022-08-28 10:07:51,541 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] StartTraceHandler.execute(), success : Collect=true
+2022-08-28 10:07:52,153 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] StartTraceHandler.execute(), success : Collect=false
+2022-08-28 10:07:54,290 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] StartTraceHandler.execute(), success : Collect=true
+2022-08-28 10:09:22,750 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 592460704 Bytes (1046478848)
+2022-08-28 10:09:24,501 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 631258016 Bytes (1046478848)
+2022-08-28 10:09:26,720 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 790115232 Bytes (1046478848)
+2022-08-28 10:09:27,297 [INFO] BlockDiagram:2753 - set Specific Code input for plugin: SYS
+2022-08-28 10:09:27,297 [INFO] BlockDiagram:2753 - set Specific Code input for plugin: RCC
+2022-08-28 10:09:27,298 [INFO] BlockDiagram:2753 - set Specific Code input for plugin: NVIC
+2022-08-28 10:09:27,299 [INFO] BlockDiagram:2753 - set Specific Code input for plugin: GPIO
+2022-08-28 10:09:27,301 [INFO] CodeGenerator:690 - code generatio: config db path: /home/goten/st/stm32cubeide_1.10.1_2/plugins/com.st.stm32cube.common.mx_6.6.1.202207061420//db/
+2022-08-28 10:09:27,816 [INFO] CodeEngine:245 - oldGeneratedFile, /home/goten/Desktop/Tutorial/STM32/OS/stm32_freeos/STM32F407-FreeOS/MXTmpFiles/license.tmp_save
+2022-08-28 10:09:27,926 [INFO] CodeEngine:269 - Generated code: /home/goten/Desktop/Tutorial/STM32/OS/stm32_freeos/STM32F407-FreeOS/MXTmpFiles/license.tmp
+2022-08-28 10:09:28,055 [INFO] CodeEngine:245 - oldGeneratedFile, /home/goten/Desktop/Tutorial/STM32/OS/stm32_freeos/STM32F407-FreeOS/MXTmpFiles/gpio.tmp_save
+2022-08-28 10:09:28,187 [INFO] CodeEngine:269 - Generated code: /home/goten/Desktop/Tutorial/STM32/OS/stm32_freeos/STM32F407-FreeOS/MXTmpFiles/gpio.tmp
+2022-08-28 10:09:28,239 [INFO] CodeEngine:245 - oldGeneratedFile, /home/goten/Desktop/Tutorial/STM32/OS/stm32_freeos/STM32F407-FreeOS/Core/Src/stm32f4xx_it.c_save
+2022-08-28 10:09:28,348 [INFO] CodeEngine:269 - Generated code: /home/goten/Desktop/Tutorial/STM32/OS/stm32_freeos/STM32F407-FreeOS/Core/Src/stm32f4xx_it.c
+2022-08-28 10:09:28,350 [INFO] CodeEngine:245 - oldGeneratedFile, /home/goten/Desktop/Tutorial/STM32/OS/stm32_freeos/STM32F407-FreeOS/Core/Inc/stm32f4xx_it.h_save
+2022-08-28 10:09:28,419 [INFO] CodeEngine:269 - Generated code: /home/goten/Desktop/Tutorial/STM32/OS/stm32_freeos/STM32F407-FreeOS/Core/Inc/stm32f4xx_it.h
+2022-08-28 10:09:28,428 [INFO] CodeEngine:245 - oldGeneratedFile, /home/goten/Desktop/Tutorial/STM32/OS/stm32_freeos/STM32F407-FreeOS/Core/Src/stm32f4xx_hal_msp.c_save
+2022-08-28 10:09:28,535 [INFO] CodeEngine:269 - Generated code: /home/goten/Desktop/Tutorial/STM32/OS/stm32_freeos/STM32F407-FreeOS/Core/Src/stm32f4xx_hal_msp.c
+2022-08-28 10:09:28,536 [INFO] CodeEngine:245 - oldGeneratedFile, /home/goten/Desktop/Tutorial/STM32/OS/stm32_freeos/STM32F407-FreeOS/MXTmpFiles/system.tmp_save
+2022-08-28 10:09:28,640 [INFO] CodeEngine:269 - Generated code: /home/goten/Desktop/Tutorial/STM32/OS/stm32_freeos/STM32F407-FreeOS/MXTmpFiles/system.tmp
+2022-08-28 10:09:28,647 [INFO] CodeEngine:245 - oldGeneratedFile, /home/goten/Desktop/Tutorial/STM32/OS/stm32_freeos/STM32F407-FreeOS/Core/Inc/stm32f4xx_hal_conf.h_save
+2022-08-28 10:09:28,730 [INFO] CodeEngine:269 - Generated code: /home/goten/Desktop/Tutorial/STM32/OS/stm32_freeos/STM32F407-FreeOS/Core/Inc/stm32f4xx_hal_conf.h
+2022-08-28 10:09:28,776 [INFO] CodeEngine:245 - oldGeneratedFile, /home/goten/Desktop/Tutorial/STM32/OS/stm32_freeos/STM32F407-FreeOS/Core/Inc/main.h_save
+2022-08-28 10:09:28,847 [INFO] CodeEngine:269 - Generated code: /home/goten/Desktop/Tutorial/STM32/OS/stm32_freeos/STM32F407-FreeOS/Core/Inc/main.h
+2022-08-28 10:09:28,852 [INFO] CodeEngine:245 - oldGeneratedFile, /home/goten/Desktop/Tutorial/STM32/OS/stm32_freeos/STM32F407-FreeOS/Core/Src/main.c_save
+2022-08-28 10:09:28,954 [INFO] CodeEngine:269 - Generated code: /home/goten/Desktop/Tutorial/STM32/OS/stm32_freeos/STM32F407-FreeOS/Core/Src/main.c
+2022-08-28 10:09:29,553 [INFO] ProjectBuilder:2919 - Time for Copy HAL[1] : 106mS.
+2022-08-28 10:09:29,555 [INFO] ProjectBuilder:4117 - Project Generator version: 3.17.1
+2022-08-28 10:09:29,852 [INFO] ConfigFileManager:1394 - The Die is : DIE413
+2022-08-28 10:09:33,047 [INFO] ProjectBuilder:4285 - Time for Generating toolchain IDE Files: 3492mS.
+2022-08-28 10:09:33,048 [INFO] ProjectBuilder:2790 - Time for Copy CMSIS : 1mS.
+2022-08-28 10:09:33,049 [INFO] ProjectBuilder:2790 - Time for Copy CMSIS : 0mS.
