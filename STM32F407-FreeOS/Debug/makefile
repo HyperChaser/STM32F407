@@ -12,6 +12,9 @@ RM := rm -rf
 -include Drivers/STM32F4xx_HAL_Driver/Src/subdir.mk
 -include Core/Startup/subdir.mk
 -include Core/Src/subdir.mk
+-include 3rdParty/FreeRTOS/portable/MemMang/subdir.mk
+-include 3rdParty/FreeRTOS/portable/GCC/ARM_CM4F/subdir.mk
+-include 3rdParty/FreeRTOS/subdir.mk
 -include objects.mk
 
 ifneq ($(MAKECMDGOALS),clean)
@@ -60,8 +63,8 @@ all: main-build
 main-build: STM32F407-FreeOS.elf secondary-outputs
 
 # Tool invocations
-STM32F407-FreeOS.elf STM32F407-FreeOS.map: $(OBJS) $(USER_OBJS) /home/goten/Desktop/Tutorial/STM32/OS/stm32_freeos/STM32F407-FreeOS/STM32F407VGTX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
-	arm-none-eabi-gcc -o "STM32F407-FreeOS.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m4 -T"/home/goten/Desktop/Tutorial/STM32/OS/stm32_freeos/STM32F407-FreeOS/STM32F407VGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="STM32F407-FreeOS.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+STM32F407-FreeOS.elf STM32F407-FreeOS.map: $(OBJS) $(USER_OBJS) /home/kali/Desktop/Tutorial/STM32/STM32F407/STM32F407-FreeOS/STM32F407VGTX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
+	arm-none-eabi-gcc -o "STM32F407-FreeOS.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m4 -T"/home/kali/Desktop/Tutorial/STM32/STM32F407/STM32F407-FreeOS/STM32F407VGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="STM32F407-FreeOS.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
 	@echo 'Finished building target: $@'
 	@echo ' '
 
